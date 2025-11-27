@@ -1,0 +1,53 @@
+/* Global Page Styling */
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Center Forms */
+.auth-container {
+  max-width: 500px;
+  margin: 60px auto;
+}
+
+/* Card Styling */
+.custom-card {
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Task Card */
+.task-card {
+  border-left: 6px solid #0d6efd;
+  transition: all 0.2s ease-in-out;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Navbar */
+/* Full width & top */
+.navbar {
+  width: 100%;
+  padding: 20px !important;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: auto;
+}
